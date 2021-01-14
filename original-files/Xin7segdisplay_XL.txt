@@ -11,37 +11,37 @@
 
  -> representação das equações de saída:
  
- ------> sa�da a < a = B C'D'+ A B C'+ A'B'C'D + A B'C D  >:
+ ------> saída a < a = B C'D'+ A B C'+ A'B'C'D + A B'C D  >:
 
          =OU(E(B1;NÃO(C1);NÃO(D1));E(A1;B1;NÃO(C1));E(NÃO(A1);
           NÃO(B1);NÃO(C1);D1);E(A1;NÃO(B1);C1;D1))
 
- ------> sa�da b < b = A B D'+ A C D + B C D'+ A'B C'D  >:
+ ------> saída b < b = A B D'+ A C D + B C D'+ A'B C'D  >:
 
          =OU(E(NÃO(A1);B1;NÃO(C1);D1);E(A1;B1;NÃO(D1));
           E(A1;C1;D1);E(B1;C1;NÃO(D1)))
 
- ------> sa�da c < c = A B D'+ A B C + A'B'C D' >:
+ ------> saída c < c = A B D'+ A B C + A'B'C D' >:
 
          =OU(E(NÃO(A1);NÃO(B1);C1;NÃO(D1));E(A1;B1;C1);
           E(A1;B1;NÃO(D1)))
 
- ------> sa�da d < d = B C D + A'B C'D'+ A'B'C'D + A B'C D' >:
+ ------> saída d < d = B C D + A'B C'D'+ A'B'C'D + A B'C D' >:
 
          =OU(E(NÃO(A1);B1;NÃO(C1);NÃO(D1));E(NÃO(A1);NÃO(B1);
           NÃO(C1);D1);E(B1;C1;D1);E(A1;NÃO(B1);C1;NÃO(D1)))
 
- ------> sa�da e < e = A'D + A'B C'+ B'C'D >:
+ ------> saída e < e = A'D + A'B C'+ B'C'D >:
 
          =OU(E(NÃO(A1);D1);E(NÃO(B1);NÃO(C1);D1);
           E(NÃO(A1);B1;NÃO(C1)))
 
- ------> sa�da f < f = A'B'D + A'B'C + A'C D + A B C' >:
+ ------> saída f < f = A'B'D + A'B'C + A'C D + A B C' >:
 
          =OU(E(A1;B1;NÃO(C1));E(NÃO(A1);NÃO(B1);D1);
           E(NÃO(A1);C1;D1);E(NÃO(A1);NÃO(B1);C1))
 
- ------> sa�da g < g = A'B'C'+ A'B C D >:
+ ------> saída g < g = A'B'C'+ A'B C D >:
 
          =OU(E(NÃO(A1);NÃO(B1);NÃO(C1));E(NÃO(A1);B1;C1;D1))
 

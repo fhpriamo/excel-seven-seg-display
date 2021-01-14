@@ -1,4 +1,4 @@
-                ::: Simplificaçãoo das equações de saída :::
+                ::: Simplificação das equações de saída :::
 
         C'D' | C'D  | C D  | C D'    ------------- terminal a --------------
       +------+------+------+------+
